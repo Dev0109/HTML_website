@@ -1,0 +1,102 @@
+/*-----------------------------------------
+ [MASTER STYLE SHEET]
+ * Project: Lava Material Admin Panel Template
+ * Version: v1.1.1
+ * Copyright 2017-2020 rn53themes
+ * Last Changes: 03/09/2016
+ * Author: RN53 Themes
+ * Email:      rn53themes@gmail.com
+ * Website:    http://www.rn53themes.net 
+ -----------------------------------------------*/
+ 
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1180px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1180px) {}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 992px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 992px) {
+    .tab-hide {
+        display: none;
+    }
+    .sb2-1 {
+        width: 240px;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+        left: -350px;
+        overflow: scroll;
+    }
+    .sb1-1 {
+        padding: 15px;
+    }
+    .sb2-2 {
+        width: 100%;
+        padding: 40px 15px;
+        margin-left: 0%;
+    }
+    .tab-menu {
+        display: inline-block;
+        color: #fff;
+        background: #0e76a8;
+        padding: 5px 8px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    .sb1 {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+    }
+    .logo img {
+        width: 60%;
+    }
+    .db-2 ul li {
+        width: 50%;
+    }
+    .sp-top-30 {
+        margin-top: 30px;
+    }
+    .blog-login-in {
+        width: 75%;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 768px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .mob-hide {
+        display: none;
+    }
+    .top-user-pro {
+        float: right;
+        padding: 18px 0px;
+    }
+    .db-2 ul li {
+        width: 100%;
+    }
+    .sb2-2 {
+        padding: 40px 15px;
+    }
+    .tab-list > li > a span {
+        display: none;
+    }
+    .tab-list > li > a i {
+        width: 18px;
+        color: #0e76a8;
+        margin-right: 0px;
+        text-align: center;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 481px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 481px) {}

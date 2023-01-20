@@ -1,0 +1,779 @@
+/*----------------------------------------- * Project: The Travel * Version: v2.0 * Copyright 2016-2020 rn53themes * V1.0: 03/09/2016 * V2.0: 24/08/2017 * Author: RN53 Themes * Email: rn53themes@gmail.com * Website: http://www.rn53themes.net 
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1330px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 1330px) {
+     .db-l {
+         width: 30%;
+    }
+     .db-2 {
+         width: 68%;
+         margin-right: 0px;
+    }
+     .db-3 {
+         width: 100%;
+         margin-top: 20px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1100px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 1100px) {
+     .book-tab-inn {
+         width: 100%;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 992px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 992px) {
+     .top-logo,.ed-top{
+        display:none;
+    }
+     .ed-mob-menu{
+        display:block;
+    }
+     .offer-r {
+         display: none;
+    }
+     .cus-book-form {
+         width: 90%;
+    }
+     .head_left img {
+         margin: 0 auto;
+         padding: 8px 0px;
+         display: table;
+    }
+     .head_right ul {
+         display: table;
+         float: initial;
+    }
+     .n-help {
+         background-size: cover;
+    }
+     .n-help-con {
+         width: 80%;
+         float: initial;
+         margin: 0 auto;
+    }
+     .arrange ul li {
+         width: 46%;
+    }
+     .home_enq {
+         background: #03a9f4;
+         position: relative;
+         overflow: hidden;
+         padding-bottom: 10px;
+    }
+     .n-help::before {
+         background: rgba(18, 180, 187, 0.88);
+    }
+     .e_h1 {
+         display: none;
+    }
+     .nh-help {
+         background-size: cover;
+    }
+     .nh-help::before {
+         background: #00BCD4;
+    }
+     .ho-vid {
+         margin-top: 70px;
+    }
+     .place h3 {
+         margin-top: 20px;
+         margin-bottom: 0px;
+    }
+     .footer_places {
+         margin-top: 25px;
+    }
+     .footer_places ul {
+         margin-bottom: 0px;
+    }
+     .tour_r {
+         margin-top: 45px;
+    }
+     .tour_offer a {
+         width: 200px;
+         margin: 0 auto;
+    }
+     .hot-page2-alp-r-list {
+         margin: 15px;
+         margin-bottom: 30px;
+    }
+     .hot-page2-alp-con-left {
+         padding-left: 0px !important;
+         padding-right: 0px !important;
+    }
+     .hot-page2-alp-r-hot-page-rat {
+         display: none;
+    }
+     .inner_banner ul {
+         margin-bottom: 0px;
+         display: block;
+         position: absolute;
+         padding: 0px 0px 5px 0px;
+         margin-top: 0px;
+    }
+     .inner_banner p {
+         padding-top: 30px;
+    }
+     .inner_banner ul li {
+         padding-left: 0px;
+         padding-right: 8px;
+    }
+     .hot-page2-alp-ri-p2 ul li {
+         padding-right: 15px;
+    }
+     .hot-page2-alp-ri-p3 {
+         padding: 0px 15px 30px 15px;
+         position: relative;
+         overflow: hidden;
+    }
+     .hot-page2-alp-ri-p3 span {
+         display: inline-block;
+         text-align: center;
+         width: 33.33%;
+         float: left;
+         font-size: 24px;
+         font-weight: 600;
+         color: #00bcd4;
+    }
+     .hot-list-p3-4 {
+         width: 100% !important;
+         padding-top: 15px;
+    }
+     .hot-page2-alp-ri-p2 {
+         padding: 30px 15px 20px 15px;
+    }
+     .hot-list-p3-1 {
+         color: #979797 !important;
+         font-size: 14px !important;
+         padding-top: 10px;
+    }
+     .hot-page2-alp-con-right {
+         padding-bottom: 45px;
+         padding-top: 60px;
+    }
+     .home_form form ul {
+         padding: 8px 8px 8px 8px;
+    }
+     .dir-rat-right {
+         text-align: center;
+    }
+     .dir-rat-right ul {
+         margin: 0 auto;
+         display: table;
+    }
+     .tr-room-type-list-2 h4 {
+         margin-top: 35px;
+    }
+     .tourz-search-form div:nth-child(1) {
+         width: 100%;
+    }
+     .tourz-search-form div:nth-child(2) {
+         width: 100%;
+    }
+     .tourz-search-form div:nth-child(3) {
+         width: 100%;
+    }
+     .tourz-search-form div {
+         margin-bottom: 5px;
+    }
+     .main_menu {
+         display: none;
+    }
+     .head {
+         display: none;
+    }
+     .mob-menu {
+         display: block;
+    }
+     .db {
+         padding: 50px;
+         padding-top: 100px;
+    }
+     .db-2-main-1 {
+         width: 100%;
+    }
+     .db-2-main-2 {
+         border-right: 0px solid #eaedef;
+         padding: 20px;
+    }
+     .db-2-main-com span {
+         text-align: left;
+         display: block;
+    }
+     .db-2-main-com img {
+         margin: inherit;
+    }
+     .db-done {
+         display: inline !important;
+    }
+     .db-not-done {
+         display: inline !important;
+    }
+     .tr-regi-form {
+         width: 75%;
+         padding: 40px 50px 50px 50px;
+         margin-top: 100px;
+    }
+     .inner_banner {
+         padding: 250px 0px 40px 0px;
+    }
+     .main-menu-v2 {
+         display: none;
+    }
+     .v2-ho-se-ri h1 {
+         font-size: 52px;
+         margin-top: 50px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 767px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 767px) {
+     .tb-space {
+         padding: 75px 0px;
+    }
+     .pad-bot-redu {
+         padding-bottom: 45px !important;
+    }
+     .pad-bot-incre {
+         padding-bottom: 75px !important;
+    }
+     .pad-bot-redu-5 {
+         padding-bottom: 25px !important;
+    }
+     .head_right ul {
+    }
+     .head_left img {
+         display: table;
+         margin: 0 auto;
+         margin-bottom: 15px;
+    }
+     .pack_icon ul {
+         margin: 0 auto;
+         display: table;
+         padding-bottom: 10px;
+         padding-top: 0px;
+    }
+     .b_pack h4 {
+         text-align: center;
+         margin-bottom: 5px;
+    }
+     .family img {
+         display: none;
+    }
+     .mob_logo {
+         display: block;
+         padding: 15px;
+    }
+     .head {
+         display: none;
+    }
+     .main_menu {
+         background: #000000;
+         box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.8);
+         top: 0px;
+         width: 100%;
+         z-index: 9999;
+    }
+     .navbar-inverse {
+         background-color: #000000;
+         border-radius: 0px;
+    }
+     .navbar-nav > li > a {
+         line-height: 15px;
+         border-radius: 1px;
+         border-bottom: 1px solid #1a1a1a;
+         color: #FFFFFF !important;
+    }
+     .menu_book {
+         float: none;
+    }
+     .menu_book a {
+         display: block;
+    }
+     .home_consul a {
+         margin-top: 15px;
+         margin-bottom: 25px;
+    }
+     .arrange ul li {
+         width: 47%;
+    }
+     .head_left img {
+         margin: 0 auto;
+         padding: 8px 0px;
+    }
+     .head_right ul {
+    }
+     .head_left img {
+         display: table;
+         margin: 0 auto;
+         padding: 8px 0px;
+    }
+     .footer_social iframe {
+         width: 100%;
+    }
+     .footer_sub input[type="submit"] {
+         width: 100%;
+         float: left;
+    }
+     .banner_book_1 ul li {
+         width: 48%;
+    }
+     .dl3 {
+         display: none !important;
+    }
+     .dl2 {
+         display: none !important;
+    }
+     .tour_star {
+         display: block;
+    }
+     .event-res {
+         display: none;
+    }
+     .p2 h3 span {
+         display: block;
+    }
+     .dropdown-menu > li > a {
+         border-bottom: 1px solid #1a1a1a;
+    }
+     .book_poly h3 {
+         padding-top: 50px;
+    }
+     .footer {
+         padding-bottom: 75px;
+         padding-left: 30px;
+         padding-right: 30px;
+    }
+     .footer_places {
+         padding-left: 30px;
+         padding-right: 30px;
+    }
+     .disco {
+         margin-bottom: 30px;
+         margin-left: 15px;
+         margin-right: 15px;
+    }
+     .footer h4 {
+         padding-bottom: 10px;
+         margin-top: 40px;
+    }
+     .foot-spec h4 {
+         margin-top: 0px;
+    }
+     .foot-com {
+         padding-left: 0px;
+         padding-right: 0px;
+         padding-bottom: 35px;
+    }
+     .testi-2 {
+         margin-top: 35px;
+    }
+     .testi-2 h3 {
+    }
+     .footer1 {
+         padding-bottom: 50px !important;
+    }
+     .cbb2-ab-p1-right {
+         margin-top: 50px;
+    }
+     .cbb2-ab-p3-1 {
+         margin-bottom: 0px;
+    }
+     .cbb2-ab-p-3 {
+         padding: 50px 0px 50px 0px;
+    }
+     .icon-float ul li:nth-child(1) {
+         display: none;
+    }
+     .icon-float {
+         position: fixed;
+         left: 0px;
+         bottom: -1px;
+         z-index: 999;
+         top: inherit;
+         width: 100%;
+         background: #333;
+    }
+     .icon-float ul {
+         padding: 0px;
+    }
+     .icon-float ul li {
+         list-style-type: none;
+         float: left;
+         width: 16.5999%;
+         text-align: center;
+    }
+     .icon-float ul li a {
+         display: block;
+         -webkit-transition: all 0.5s ease;
+         -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+         padding: 0px;
+    }
+     .icon-float ul li a i {
+         padding: 8px;
+         width: 40px;
+         height: 32px;
+         text-align: center;
+         color: #fff;
+    }
+     .navbar-nav {
+         display: block !important;
+    }
+     .home_form form ul li input {
+         width: 100%;
+    }
+     .events table tr td:nth-child(2) {
+         width: 260px;
+         position: relative;
+         overflow: hidden;
+         font-size: 14px;
+         text-overflow: ellipsis;
+         float: left;
+         overflow: hidden;
+    }
+     .events img {
+         display: none;
+    }
+     .events table tr td a {
+         font-size: 14px;
+         text-overflow: ellipsis;
+         white-space: pre;
+         overflow: hidden;
+         vertical-align: middle;
+    }
+     .slider-cap h1 {
+         font-size: 32px;
+    }
+     .carousel-caption {
+         padding-top: 4%;
+         padding-bottom: 7%;
+         padding-left: 20px;
+         padding-right: 20px 
+    }
+     .carousel-caption {
+         padding-bottom: 15% !important;
+    }
+     .bg-none {
+        /* background: inherit;
+         */
+         padding: 30px 15px;
+         background: url(../images/list-p-bg.jpg) no-repeat center center;
+         background-size: cover;
+    }
+     .tips_left_1, .tips_left_2, .tips_left_3 {
+         background-size: 55px;
+    }
+     .tips_left_1 {
+         padding-bottom: 15px;
+    }
+     .tips_left_2 {
+         padding-bottom: 15px;
+    }
+     .tips_left {
+         padding-left: 90px;
+    }
+     .tourb2-ab-p-4 {
+         padding: 75px 0px 35px 0px;
+    }
+     .tourb2-ab-p-2 {
+         padding-top: 75px;
+         padding-bottom: 75px;
+    }
+     .tourb2-ab-p1-right {
+         margin-top: 30px;
+    }
+     .tourb2-ab-p3-com {
+         padding: 15px 15px 0px 15px;
+    }
+     .p2 h3 {
+         margin-top: 30px;
+    }
+     .p2_book ul {
+         margin-bottom: 0px;
+    }
+     .posts h3 {
+         margin-top: 30px;
+    }
+     .book_poly {
+         padding: 0px 8px;
+    }
+     .book_poly ul {
+         margin-bottom: 0px;
+    }
+     .p-tesi {
+         text-align: center;
+    }
+     .p-tesi h4 {
+         margin-top: 20px;
+    }
+     .p_testimonial p {
+         text-align: center;
+    }
+     .to-con-2 {
+         font-size: 30px;
+    }
+     .hot-ameni ul li {
+         width: 50%;
+    }
+     .c3-slider::before {
+         content: '';
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0px;
+         bottom: 0px;
+         background: rgba(19, 40, 58, 0.87);
+    }
+     .dir-rat-right ul li span {
+         display: none;
+    }
+     .dir-rat-right ul li a i {
+         padding: 0px 10px;
+    }
+     .tourz-hom-ser ul li a {
+         width: 65px;
+         height: 65px;
+         padding: 10px 2px 10px 2px;
+    }
+     .tourz-hom-ser ul li a img {
+         width: 24px;
+    }
+     .db {
+         padding: 25px;
+         padding-top: 100px;
+    }
+     .db-l {
+         width: 100%;
+    }
+     .db-2 {
+         width: 100%;
+         margin-right: 0px;
+         margin-left: 0px;
+         margin-top: 20px;
+    }
+     .db-3 {
+         width: 100%;
+         margin-top: 20px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is 767px or wider,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (min-width: 767px) {
+     .dropdown:hover .dropdown-menu {
+         display: block;
+         margin-top: 0;
+    }
+     .help-line {
+         background: url('../images/home_left.jpg') no-repeat #ffc107;
+         background-size: cover;
+         padding: 20px 0px 32px 0px;
+         position: relative;
+         overflow: hidden;
+    }
+     .help-line::before {
+         position: absolute;
+         background: rgba(0, 188, 212, 0.75);
+         content: '';
+         top: 0px;
+         bottom: 0px;
+         width: 100%;
+         height: 100%;
+    }
+     .home_consul {
+         width: 100%;
+         text-align: center;
+    }
+     .home_consul a {
+         display: initial;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 481px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 480px) {
+     body {
+         overflow-x: hidden !important;
+    }
+     .arrange ul li {
+         width: 98% !important;
+    }
+     .banner_book_1 ul li {
+         width: 100%;
+    }
+     .dl1 {
+         display: none !important;
+    }
+     .mob_logo {
+         width: 80%;
+    }
+     .events table tr td:nth-child(2) {
+         width: 180px;
+    }
+     .events table tr th {
+         font-size: 16px;
+    }
+     #myTable th, #myTable td {
+         padding: 0px 5px;
+    }
+     .to-con-2 {
+         font-size: 20px;
+    }
+     .hot-ameni ul li {
+         width: 100%;
+    }
+     .dir-rat-form input[type="submit"] {
+         width: 100%;
+    }
+     .tourz-hom-ser ul li {
+         width: 50%;
+         margin-bottom: 10px;
+    }
+     .tourz-hom-ser ul li a {
+         width: 100%;
+         height: 100%;
+    }
+     .db-pay-amount {
+         display: none;
+    }
+     .db-pay-card {
+         display: none;
+    }
+     .db2-form-com form {
+         padding: 0px;
+         background: none;
+         margin-top: 0px;
+    }
+     .tr-regi-form {
+         width: 90%;
+         padding: 30px 25px 30px 25px;
+         margin-top: 100px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1030px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 1148px) {
+     .menu_book {
+         float: initial;
+         position: relative;
+         overflow: hidden;
+         padding: 10px 0px;
+         display: block;
+         width: 50%;
+         margin: 0 auto;
+    }
+     .menu_book a {
+         background: #FFC107;
+         font-weight: 700;
+         font-style: italic;
+         text-decoration: none !important;
+         color: #000 !important;
+         padding: 6px;
+         border-radius: 3px;
+         display: block;
+         text-align: center;
+    }
+     .navbar-nav {
+         float: initial;
+         margin: 0 auto;
+         display: table;
+    }
+     .carousel-inner > .item > img {
+         display: none;
+    }
+     .carousel-caption {
+         width: 100%;
+         padding-bottom: 7%;
+    }
+     .carousel-inner1 > .item > img {
+         display: block;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is 992px or wider,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (min-width: 992px) {
+     .help-line {
+         background: url('../images/home_left.jpg') no-repeat #ffc107;
+         background-size: 50%;
+         position: relative;
+         overflow: hidden;
+         padding: 20px 0px 32px 0px;
+    }
+     .help-line::before {
+         position: absolute;
+         background: rgba(0, 188, 212, 0.75);
+         content: '';
+         top: 0px;
+         bottom: 0px;
+         width: 100%;
+         height: 100%;
+    }
+     .home_consul {
+         width: 45%;
+         text-align: left;
+    }
+     .home_consul a {
+         display: initial;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 767px and 992px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (min-width: 767px) and (max-width: 992px) {
+     .navbar-nav {
+         float: initial;
+         margin: 0 auto;
+         display: table;
+    }
+     .nav > li > a {
+         font-size: 14px;
+         padding: 10px 7px;
+    }
+     .container {
+        /*width: 100%;
+        */
+    }
+     .banner_book_1 ul li {
+         width: 32%;
+    }
+     .dl1 {
+    }
+     .dl2 {
+    }
+     .dl3 {
+         display: none !important;
+    }
+     .dl4 {
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is 992px or wider,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (min-width: 992px) {
+     .nav > li > a {
+         font-size: 15px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1130px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 1130px) {
+     .ticket ul li {
+         margin-bottom: 5px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1180px wide,below css will be applied. 
+/*-------------------------------------------------------*/
+ @media screen and (max-width: 1180px) {
+}
